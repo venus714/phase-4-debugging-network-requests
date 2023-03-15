@@ -44,9 +44,7 @@ function MovieForm() {
         <FormGroup>
           <label htmlFor="title">Title</label>
           <input
-            type="text"
-            id="title"
-            value={formData.title}
+            type="text" id="title" value={formData.title}
             onChange={handleChange}
           />
         </FormGroup>
